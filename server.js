@@ -20,6 +20,6 @@ mongoose.connect('mongodb://127.0.0.1/Wallet')
         console.log('MongoDB ga ulanmadi!',err)
     })
 
-const port =process.env.PORT ?? 5000;
+const port =process.env.PORT ?? 5000; 
 
 app.listen(port,console.info(`${port} is listening...`))
